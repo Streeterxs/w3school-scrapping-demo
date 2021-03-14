@@ -1,0 +1,24 @@
+{
+  "name": "w3schools-scrapping-demo",
+  "version": "1.0.0",
+  "description": "A webscrapping demo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrap": "babel-node ./src/index.js",
+    "delete:node_modules": "find . -name \"node_modules\" -exec rm -rf '{}' +"
+  },
+  "author": "Afonso Araújo Neto",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "jsdom": "^16.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@babel/plugin-transform-runtime": "^7.13.10"
+  }
+}
